@@ -1,6 +1,6 @@
 cask "mixterm" do
-  version "1.1.3"
-  sha256 "6277363412c18bb620bca2a8ccfab7ac108214606808d3a11c7a10352ee884bf"
+  version "1.1.4"
+  sha256 "8b3b5cd60c84aa09a7d91a8c7bf84c897f00fbd4f7de144b1b2ec044da3cbcc1"
 
   url "https://github.com/muhammetali/mixterm/releases/download/v#{version}/mixterm-macos.zip"
   name "MixTerm"
