@@ -5,9 +5,14 @@ SSH/SFTP client with multi-tab terminals, a visual file browser and
 AES-256 encrypted credential storage.
 
 ```sh
+brew trust muhammetali/tap
 brew tap muhammetali/tap
 brew install --cask mixterm
 ```
+
+The first line is not optional on Homebrew 6 and later, which refuses to
+load casks from a third-party tap until you say you trust it. Without it
+`brew tap` stops with "Refusing to load cask … from untrusted tap".
 
 Upgrading follows the usual route:
 
